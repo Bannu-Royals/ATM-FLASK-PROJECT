@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Transactions</title>
+</head>
+<body class="bg-gradient-to-b from-blue-200 to-blue-500 min-h-screen flex items-center justify-center">
+    <div class="w-full max-w-lg p-8 bg-white rounded-lg shadow-lg">
+        <h2 class="text-3xl font-bold mb-4 text-center text-gray-800">Transactions</h2>
+        <ul class="divide-y divide-gray-300">
+            {% for transaction in transactions %}
+                <li class="py-2">{{ transaction }}</li>
+            {% endfor %}
+        </ul>
+        <a href="{{ url_for('main_menu') }}" class="block text-center mt-4 text-blue-500 hover:text-blue-800 font-bold text-sm">Back to Main Menu</a>
+    </div>
+</body>
+</html>

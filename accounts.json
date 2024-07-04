@@ -1,0 +1,20 @@
+{
+    "1234": {
+        "pin": "1111",
+        "balance": 1000.0,
+        "transactions": [
+            "2024-07-04 12:30:45 - Deposited $2000.00",
+            "2024-07-04 12:30:55 - Withdrew $1000.00"
+        ]
+    },
+    "5678": {
+        "pin": "2222",
+        "balance": 0,
+        "transactions": []
+    },
+    "9012": {
+        "pin": "3333",
+        "balance": 0,
+        "transactions": []
+    }
+}
