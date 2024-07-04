@@ -1,4 +1,6 @@
 # Basic ATM Simulation Project in Python Using Flask
+![THUMBNAIL](https://github.com/Bannu-Royals/ATM-FLASK-PROJECT/assets/119747146/a29ccbfe-b433-47f9-9c5a-86abe4c0293c)
+
 
 # Login Page :
 ![image](https://github.com/Bannu-Royals/ATM-FLASK-PROJECT/assets/119747146/fd2e792a-e059-4421-9020-9cc09fd6beaa)
